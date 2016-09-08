@@ -31,6 +31,7 @@ kill -9 $(lsof -i tcp:3000 -t)
 
 #Match / GREP
   Match multiple strings and output to a file
+  
   grep '"FAILED".*2015-11-04.*2015-11-05.*2015-11-06' oct_charges > oct_failed.csv
 
 #Split large files
