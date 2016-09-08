@@ -1,40 +1,40 @@
-###SHELL
+##Bash Script
 
-#Get top rows of file
+###Get top rows of file
 head -{number of rows} {filename}
 
 eg.
 head -2 myfile.csv
 
-#Copy files from your remote server to yoru localhost
+###Copy files from your remote server to yoru localhost
 scp -i {pem.file} {user}@{ip}{directory/filename} {LOCAL_HOST_DIR}
 
-#Session commands
+###Session
 screen
 screen -ls
 killall screen
 
-#gunzip
+###gunzip
 gzip -d file.gz
 gzip -c file.txt > file.txt.gzip
 
-#Free disk space
+###Free disk space
 1. lsof | grep deleted
 2. cd /proc/{pid}/fd
 3. > {pid}
 
-#kill process bound to port 80
+###kill process bound to port 80
 sudo fuser -k 80/tcp
 
-#kill running server in port 3000
+###kill running server in port 3000
 kill -9 $(lsof -i tcp:3000 -t)
 
-#Match / GREP
+###Match / GREP
   Match multiple strings and output to a file
   
   grep '"FAILED".*2015-11-04.*2015-11-05.*2015-11-06' oct_charges > oct_failed.csv
 
-#Split large files
+###Split large files
   split --bytes {size} {filename}
   eg.
   split --bytes 100M filename
