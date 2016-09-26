@@ -22,7 +22,16 @@ fx -  find next character x
 tx -  find recent character x
 }  -  skip to next block
 {  -  skip to previous block
+```
 
+### Insert mode
 
-
+```
+i - insert before cursor
+I - insert at beginning of the line
+A - insert at the end of the line
+o - insert in new line
+O - insert new line above current line
+ea - insert at end of the word
+Esc - exit insert mode
 ```
