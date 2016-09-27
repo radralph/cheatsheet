@@ -35,3 +35,17 @@ O - insert new line above current line
 ea - insert at end of the word
 Esc - exit insert mode
 ```
+### Editing
+```
+r  - replace a single character
+j  - join line below
+cc - replace entire line
+cw - replace till the end of the word
+c$ - replace till the end of the line
+s  - delete character and substitute text
+S  - delete line and and substitute texts
+xp - delete and paste
+u  - undo
+ctrl +r - redo
+.  - repeat last command
+```
