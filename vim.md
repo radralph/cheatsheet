@@ -33,8 +33,9 @@ A - insert at the end of the line
 o - insert in new line
 O - insert new line above current line
 ea - insert at end of the word
-Esc - exit insert mode
+Esc - exit
 ```
+
 ### Editing
 ```
 r  - replace a single character
@@ -48,4 +49,19 @@ xp - delete and paste
 u  - undo
 ctrl +r - redo
 .  - repeat last command
+```
+
+### Insert mode 
+```
+v  - enter visual mode
+V  - start visual mode in line
+o  - skip to the end of marked area
+O  - move to the corner of block
+aw - mark a word
+ab - block with ()
+aB - block with {}
+ib - inner block with ()
+iB - inner block with {}
+ctrl+v - start visual block
+ESC - exit
 ```
