@@ -1,4 +1,4 @@
-## Vim 
+##vim 
 
 ### Cursor Movement / Navigation
 
@@ -51,7 +51,7 @@ ctrl +r - redo
 .  - repeat last command
 ```
 
-### Insert mode 
+### Visual mode 
 ```
 v  - enter visual mode
 V  - start visual mode in line
@@ -62,6 +62,11 @@ ab - block with ()
 aB - block with {}
 ib - inner block with ()
 iB - inner block with {}
+<  - shift right text
+<  - shift left text
+y  - copy
+d  - delete mark text
+~  - switch case
 ctrl+v - start visual block
 ESC - exit
 ```
