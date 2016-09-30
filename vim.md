@@ -49,6 +49,17 @@ xp - delete and paste
 u  - undo
 ctrl +r - redo
 .  - repeat last command
+yy - copy a line
+2yy - copy 2 lines
+y$  - copy to end of line
+p   - paste after cursor
+P   - paste before cursor
+dd  - delete a line
+2dd - delete 2 lines
+dw  - delete characters of a word from the current position till the next word
+D   - delete to the end of the line
+d$  - delete to the end of the line
+x   - delete character
 ```
 
 ### Visual mode 
