@@ -60,6 +60,13 @@ dw  - delete characters of a word from the current position till the next word
 D   - delete to the end of the line
 d$  - delete to the end of the line
 x   - delete character
+/pattern - search for pattern
+?pattern - search back for pattern
+n  - repeat search forward
+N  - repear search backward
+:%s/old/new/g - replace old file with new pattern in all files
+:%s/old/new/gc - replace old file with new pattern with confirmation
+:noh - remove highlighting of search matches
 ```
 
 ### Visual mode 
