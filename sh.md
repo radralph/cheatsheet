@@ -1,5 +1,15 @@
 ##Bash Script
 
+
+```
+man - open manual of a command
+cd - enter a new directory
+mkdir - make a directory in the current directory
+man - open a manual of a command
+echo - prints an argument
+tail - reads the last x lines of a file
+```
+
 ### Get top rows of file
 ```
 head -{number of rows} {filename}
