@@ -8,6 +8,16 @@ mkdir - make a directory in the current directory
 man - open a manual of a command
 echo - prints an argument
 tail - reads the last x lines of a file
+less - a way to navigate through a file, allows you to move backward to the file
+grep - search function
+  -i - remove case sensitivity
+  -r - search recursively
+  -w - search only whole words
+  -c - print number of times found
+  -n - prints line found on with phrase
+  -v - prints invert match
+sed - a stream editor that performs text transformation
+history - command prints out na incremented command line history
 ```
 
 ### Get top rows of file
