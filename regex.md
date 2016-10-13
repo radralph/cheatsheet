@@ -24,3 +24,16 @@ $  - End of line
 \x - Hexadecimal digit
 \O - Octal Digit
 ```
+
+###Quantifiers
+```
+*  - 0 or more {3} Exactly 3
++  - 1 or more {3,} 3 or more
+?  - 0 or 1 {3,5} 3,4 or 5
+```
+###Escape Sequences
+```
+\  - Escape following characters
+\Q - Begin literal sequence
+\E - End literal sequence
+```
