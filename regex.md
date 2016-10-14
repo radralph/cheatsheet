@@ -31,9 +31,22 @@ $  - End of line
 +  - 1 or more {3,} 3 or more
 ?  - 0 or 1 {3,5} 3,4 or 5
 ```
+
 ###Escape Sequences
 ```
 \  - Escape following characters
 \Q - Begin literal sequence
 \E - End literal sequence
+```
+
+###Groups and Ranges
+```
+.  -  Any character except new line
+(a|b) - a or b
+(...) - group
+(?...) - Passive (non-csapturing)
+[abc]  - Range (a, b or c)
+[A-Q]  - Upper case letter from A to Q
+[0-7]  - Digit from 0 to 7
+\x  - Group/subpattern number 'x'
 ```
