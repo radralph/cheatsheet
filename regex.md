@@ -50,3 +50,15 @@ $  - End of line
 [0-7]  - Digit from 0 to 7
 \x  - Group/subpattern number 'x'
 ```
+
+###Pattern Modifiers
+```
+g  - Global match
+i* - Case-insensitive
+m* - Multiple lines
+s* - Treat string as single line
+x* - Allow comments and whitespace pattern
+e* - Evaluate replacement
+U* - Ungreedy pattern
+```
+
